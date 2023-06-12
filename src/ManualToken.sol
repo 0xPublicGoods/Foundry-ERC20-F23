@@ -34,7 +34,7 @@ contract ManualToken {
         require(balanceOf(msg.sender) + balanceOf(_to) == previousBalances);
     }
 
-    function TODO() public view returns (string memory) {
+    function TODO() public pure returns (string memory) {
         return
             "TODO: Use OpenZeppelin ERC20 implementation / Transmissions11 ERC20 implementation SOLmate / maybe SOLADY...";
     }
